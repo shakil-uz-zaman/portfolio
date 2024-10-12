@@ -17,13 +17,15 @@ body {
     font-weight: 700;
     padding 15px 35px;
 }
-.section-title{
+
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700px;
 }
-.section-description{
+
+.section-description {
     color: #151515;
     text-align: center;
     font-size: 18px;
@@ -72,7 +74,8 @@ nav a {
     align-items: center;
     justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
 }
 
@@ -83,7 +86,7 @@ nav a {
 .banner-greeting {
     font-size: 45px;
     color: #474747;
-    margin-bottom:  0;
+    margin-bottom: 0;
 
 }
 
@@ -94,27 +97,54 @@ nav a {
     margin-bottom: 20px;
 
 }
+
 /*main section styles*/
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
+main section{
+    margin-top: 130px;
+}
 
 /*about section styles*/
-.about{
+.about {
     padding: 130px;
     background-color: #fff8f3;
     border-radius: 10px;
-    margin:130px 0 ;
+    margin: 130px 0;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
-#what-i-do-description{
+
+/*skills related styles*/
+
+#what-i-do-description {
     padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+
+
+}
+
+.skill-description {
+    color: #757575;
 }
