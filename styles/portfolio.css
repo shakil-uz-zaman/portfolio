@@ -8,6 +8,12 @@ body {
     color: #fd6e0a;
 }
 
+/*my expirement*/
+.profile-picture{
+    height: 676px;
+    width: 584 px;
+}
+
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
